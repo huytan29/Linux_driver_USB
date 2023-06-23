@@ -1,3 +1,4 @@
+// Linux USB driver write by Tan Huy for encrypt data when copy to USB
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/usb.h>
@@ -128,5 +129,5 @@ module_init(usb_driver_init);
 module_exit(usb_driver_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("Huy Tan");
 MODULE_DESCRIPTION("USB Driver Example");
